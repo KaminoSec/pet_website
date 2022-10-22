@@ -1,0 +1,53 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto; // centers the container w/in parent element
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+
+  display: flex;
+  justify-content: space-between; //divides empty space
+  align-items: center; //put logo in the vertical middle
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%; // don't grow, don't shrink, width of the sidebar
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; // moves the copyright information to the bottom; divides all the whitespace between the elements
+}
+
+.pet-view {
+  background-color: #fff;
+
+  flex: 1; //fill available space
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 100%;
+  margin-right: 4.5rem;
+}
