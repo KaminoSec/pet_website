@@ -105,26 +105,43 @@
 
                 <div class="overview">
                     <h1 class="overview__heading">
-                        Fish Ownership
+                        Contact Our Pexperts
                     </h1>
 
                 </div>
 
                 <div class="detail">
                     <div class="description">
-                        <div class="book">
+                        <form action="#" class="form">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Full Name" required id="name">
+                                <label for="name" class="form__label">Full Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email Address" required id="email">
+                                <label for="email" class="form__label">Email Address</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Phone Number" required id="phone">
+                                <label for="phone" class="form__label">Phone Number</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Time Zone" required id="tzone">
+                                <label for="tzone" class="form__label">Time Zone</label>
+                            </div>
 
-                        </div>
+                            <div class="form__group">
+                                <button class="btn btn__visible">Submit</button>
+                            </div>
 
-
-
+                        </form>
                     </div>
                 </div>
                 <div class="cta">
                     <h2 class="cta__book-now">
                         Good news! Our Pexperts are available for one-on-one consultation!
                     </h2>
-                    <button class="btn">
+                    <button class="btn" onclick="windo.location.href='contact.htm';">
                         <span class="btn__visible">Contact Our Pexperts</span>
                         <span class="btn__invisible">Book a Consultation</span>
                     </button>
